@@ -38,6 +38,8 @@ class MainActivity : AppCompatActivity() {
     private fun countUp() {
 
         val resultText: TextView = findViewById(R.id.result_text)
+        val resultText2: TextView = findViewById(R.id.result_text2)
+        val resultText3: TextView = findViewById(R.id.result_text3)
 
         if (resultText.text == "Hello World!") {
 
@@ -52,6 +54,38 @@ class MainActivity : AppCompatActivity() {
 
                 resultInt++
                 resultText.text = resultInt.toString()
+            }
+        }
+
+        if (resultText2.text == "Hello World!") {
+
+            resultText2.text = "1"
+        }
+
+        else {
+
+            var resultInt = resultText2.text.toString().toInt()
+
+            if (resultInt < 6) {
+
+                resultInt++
+                resultText2.text = resultInt.toString()
+            }
+        }
+
+        if (resultText3.text == "Hello World!") {
+
+            resultText3.text = "1"
+        }
+
+        else {
+
+            var resultInt = resultText3.text.toString().toInt()
+
+            if (resultInt < 6) {
+
+                resultInt++
+                resultText3.text = resultInt.toString()
             }
         }
     }
