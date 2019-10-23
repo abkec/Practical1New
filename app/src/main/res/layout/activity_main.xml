@@ -9,29 +9,29 @@
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/result_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/dice_image"
+        android:layout_width="142dp"
+        android:layout_height="143dp"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
-        android:text="Hello World!" />
+        android:src="@drawable/dice_1"
+        tools:src="@drawable/dice_1" />
 
-    <TextView
-        android:id="@+id/result_text2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/dice_image2"
+        android:layout_width="138dp"
+        android:layout_height="128dp"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
-        android:text="Hello World!" />
+        android:src="@drawable/dice_1"
+        tools:src="@drawable/dice_1" />
 
-    <TextView
-        android:id="@+id/result_text3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/dice_image3"
+        android:layout_width="130dp"
+        android:layout_height="139dp"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
-        android:text="Hello World!" />
+        android:src="@drawable/dice_1"
+        tools:src="@drawable/dice_1" />
 
     <Button
         android:id="@+id/roll_button"
